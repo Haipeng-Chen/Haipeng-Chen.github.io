@@ -3,7 +3,7 @@
 body {
   @include body-font;
   padding-top: 54px;
-  color: $gray-600;
+  color: $black;
 }
 @media (min-width: 992px) {
   body {
@@ -20,7 +20,7 @@ h5,
 h6 {
   @include heading-font;
   font-weight: 700;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   color: $gray-800;
 }
 
